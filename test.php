@@ -3,8 +3,8 @@
 * Plugin Name: Check Ud github and licence  
 * Plugin URI: https://www.facebook.com/musadiq.khan.tareen
 * Description: This is the very first plugin I ever created.
-* Version: 1.013
-* Author: Test taker
+* Version: 1.1
+* Author: Musadiq Mehmood
 * Author URI: https://www.facebook.com/musadiq.khan.tareen
 **/
 
