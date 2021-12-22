@@ -8,7 +8,7 @@
 * Author URI: https://www.facebook.com/musadiq.khan.tareen
 **/
 
-ob_start();
+
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
     'https://github.com/devenvaxiontech/testinggithublicence',
@@ -18,8 +18,10 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 
 //Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('master');
-$pluginUpdateChecker->setAuthentication('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');
-
+//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
+//$pluginUpdateChecker->setAuthentication('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');
+ //$pluginUpdateChecker->setAuthentication('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');
+ob_start();
 // This is the secret key for API authentication. You configured it in the settings menu of the license manager plugin.
 define('YOUR_SPECIAL_SECRET_KEY', '61b9d632ded265.37010906'); //Rename this constant name so it is specific to your plugin or theme.
 
