@@ -18,7 +18,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 
 //Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('master');
-$pluginUpdateChecker->setAuthentication('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');
+//$pluginUpdateChecker->setAuthentication('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');
 
 // This is the secret key for API authentication. You configured it in the settings menu of the license manager plugin.
 define('YOUR_SPECIAL_SECRET_KEY', '61b9d632ded265.37010906'); //Rename this constant name so it is specific to your plugin or theme.
