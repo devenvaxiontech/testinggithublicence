@@ -3,8 +3,8 @@
 * Plugin Name: Check Ud github and license    
 * Plugin URI: https://www.facebook.com/musadiq.khan.tareen
 * Description: This is the very first plugin I ever created.
-* Version: 1.31
-* Author: Musadiq Mehmood khan
+* Version: 1.35
+* Author: Musadiq Mehmood tareen
 * Author URI: https://www.facebook.com/musadiq.khan.tareen
 **/
 
@@ -16,7 +16,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
     'testinggithublicence'
 );
 
-//Set the branch that contains the stable release. this is test 
+//Set the branch that contains the stable release. this is test by musadiq
 $myUpdateChecker->setBranch('master');
 //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
 //$pluginUpdateChecker->setAuthentication('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');
